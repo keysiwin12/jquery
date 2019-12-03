@@ -36,6 +36,7 @@ $(document).ready(function () {
     );
 
     //keyup
+    
     $('input').keyup(function (e) { 
         let valor = $('input').val();
         $('.p').html(valor);  //htmlget
